@@ -71,7 +71,10 @@ By default, it runs on: `http://localhost:8080`
 | Method | Endpoint  | Description        |
 | ------ | --------- | ------------------ |
 | GET    | `/events` | List user’s events |
+| GET    | `/events/:id` | Get a single events |
 | POST   | `/events` | Create a new event |
+| POST   | `/events/:id` | Edit user’s events |
+| DELETE   | `/events/:id` | Delete event |
 
 #### 🔒 Authorization:
 
