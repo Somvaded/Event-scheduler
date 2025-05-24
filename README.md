@@ -26,7 +26,7 @@ A simple backend service built in Go for scheduling user-specific events with au
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/your-username/event-scheduler.git
+git clone https://github.com/Somvaded/Event-scheduler.git
 cd event-scheduler
 ```
 
