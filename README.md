@@ -9,7 +9,8 @@ A simple backend service built in Go for scheduling user-specific events with au
 - 🛡️ Secure routes with token-based access
 
 ---
-
+## Documentation Link 
+- https://documenter.getpostman.com/view/28217638/2sB2qcBfyq
 ## 🚀 Tech Stack
 
 - **Go (Golang)**
