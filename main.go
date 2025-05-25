@@ -20,7 +20,10 @@ func main(){
 	// Setup database
 
 	db , err := database.InitDB()
-
+	if err != nil {
+		fmt.Errorf("database initialization failed: %v", err)
+		return
+	}
 	// Setup routes
 	routes.EventRoutes(r, db)
 
